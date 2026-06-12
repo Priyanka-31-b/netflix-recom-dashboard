@@ -38,7 +38,7 @@ Both architectures were cross-evaluated on a synchronized 80/20 train/test data 
 
 | Performance Evaluation Metric | Optimized Latent SVD | Item-Based Neighborhood CF | Performance Verdict |
 | :--- | :---: | :---: | :---: |
-| **RMSE (Prediction Accuracy) ↓** | **0.9688** | 1.1905 | [cite_start]**SVD Wins (+18.6% Error Reduction)** [cite: 46] |
+| **RMSE (Prediction Accuracy) ↓** | **0.9686** | 1.1905 | [cite_start]**SVD Wins (+18.6% Error Reduction)** [cite: 46] |
 | **MAE (Absolute Prediction Gap) ↓** | **0.8194** | 0.9133 | [cite_start]**SVD Wins (+10.2% Absolute Gain)** [cite: 46] |
 | **MAP@10 (List Ranking Quality) ↑** | **0.5337** | 0.5165 | [cite_start]**SVD Wins (+3.3% Top-K Relevance)** [cite: 46] |
 
