@@ -44,7 +44,7 @@ Both architectures were cross-evaluated on a synchronized 80/20 train/test data 
 
 ### Core Project Insights
 1. [cite_start]**SVD handles matrix sparsity much more effectively** than neighborhood techniques. Neighborhood models degrade rapidly under extreme sparsity because overlapping co-rating columns are rare, whereas SVD finds smooth abstract patterns in hidden taste dimensions.
-2. [cite_start]**Data scale is critical** for optimization. [cite_start]Increasing SVD tracking row counts from 100k to 1M directly dropped validation RMSE bounds from 1.0155 to 0.9688.
+2. [cite_start]**Data scale is critical** for optimization. [cite_start]Increasing SVD tracking row counts from 100k to 1M directly dropped validation RMSE bounds from 1.0155 to 0.9686.
 
 ---
 
